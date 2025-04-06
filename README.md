@@ -1,6 +1,8 @@
 # OSCam-EMU
 OSCam-EMU For All Android And Linux Base Box
 
+Patched And Compiled By: [@Youchie](https://t.me/Youchie)
+
 OSCam-2.25.03-11878-r802 - with libcurl-libdvbcsa-StreamRelay+Icam-upx-PowerVu Auto + PowerVu linuxsat-support.com label.
 
 All files are included with the config.
@@ -41,8 +43,6 @@ saveemm-s                     = 1
 saveemm-g                     = 1
 emu_auproviders               = 0604:010200;0E00:000000;1010:000000;8191:000000;2610:000000;4AE1:000011,000014,0000FE
 ```
-Patched And Compiled By: [@Youchie](https://t.me/Youchie)
-
 
 
  For All devices that use opkg system .ipk
