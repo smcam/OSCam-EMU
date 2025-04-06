@@ -3,10 +3,44 @@ OSCam-EMU For All Android And Linux Base Box
 
 OSCam-2.25.03-11878-r802 - with libcurl-libdvbcsa-StreamRelay+Icam-upx-PowerVu Auto + PowerVu linuxsat-support.com label.
 
+All files are included with the config.
+
 Notice:
 
 to unlock PowerVu channels, if the keys are not available on the linux-sat forum, simply wait 3 to 10 minutes, depending on your device's hardware. the keys will be decoded via EMM, stored in SoftCam.key, and the channels will unlock.
 
+To use Softcam.key online along with getting PowerVu keys from the Linux-Sat community, use this label in the following way:
+
+```
+[reader]
+label                         = Internal_SoftCam
+protocol                      = emu
+device                        = emulator
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,090F,0E00,1010,8191,1801,2600,2602,2610,4AE1,FFFE
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;8191:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 1
+emmcache                      = 2,1,2,1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;8191:000000;2610:000000;4AE1:000011,000014,0000FE
+emu_datecodedenabled          = 1
+
+[reader]
+label                         = linuxsat-support.com
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/smcam/s/main/SoftCam.Key
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,090F,0E00,1010,8191,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;8191:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 1
+emmcache                      = 2,1,2,1
+saveemm-unknown               = 1
+saveemm-u                     = 1
+saveemm-s                     = 1
+saveemm-g                     = 1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;8191:000000;2610:000000;4AE1:000011,000014,0000FE
+```
 Patched And Compiled By: [@Youchie](https://t.me/Youchie)
 
 
