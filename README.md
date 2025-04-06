@@ -1,8 +1,11 @@
 # OSCam-EMU
-OSCam-EMU For All Linux Base Box
+OSCam-EMU For All Android And Linux Base Box
 
 OSCam-2.25.03-11878-r802 - with libcurl-libdvbcsa-StreamRelay+Icam-upx-PowerVu Auto + PowerVu linuxsat-support.com label.
 
+Notice:
+
+to unlock PowerVu channels, if the keys are not available on the linux-sat forum, simply wait 3 to 10 minutes, depending on your device's hardware. the keys will be decoded via EMM, stored in SoftCam.key, and the channels will unlock.
 
 Patched And Compiled By: [@Youchie](https://t.me/Youchie)
 
