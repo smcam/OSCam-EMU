@@ -3,7 +3,7 @@ OSCam-EMU For All Android And Linux Base Box
 
 Patched And Compiled By: [@Youchie](https://t.me/Youchie)
 
-OSCam-2.25.03-11878-r802 - with libcurl-libdvbcsa-StreamRelay+Icam-upx-PowerVu Auto + PowerVu linuxsat-support.com label.
+OSCam EMU with libcurl-libdvbcsa-StreamRelay+Icam-upx-PowerVu Auto + PowerVu linuxsat-support.com label.
 
 All files are included with the config.
 
