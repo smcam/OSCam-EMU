@@ -117,5 +117,5 @@ and similar models ..
 
 📢 Telegram ID: [@Youchie](https://t.me/Youchie)
 
-📢 Telegram Channel: [Smartcam_1](https://t.me/Smartcam_1)
+📢 Telegram Channel: [SMARTCAM TEAM](https://t.me/smartcam_team)
 
